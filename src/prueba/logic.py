@@ -4,7 +4,7 @@ import http.client
 
 def get_coordinates(address):
     
-    gmaps = googlemaps.Client(key='AIzaSyCaUv_2wD8ZDmOQOzRhgkQJ1hH1qbRtldk')
+    gmaps = googlemaps.Client(key='')
     
     geocode_result = gmaps.geocode(address)
     

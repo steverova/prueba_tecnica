@@ -10,6 +10,7 @@ def main():
 
     #step #1 get coordinates with the address
     coord = get_coordinates(init_address)
+    
     #step #2 get get neighborhood with coordinates 
     neighborhood = get_neighborhood(coord)
     #step #3 print neighborhood

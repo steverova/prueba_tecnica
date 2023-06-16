@@ -13,7 +13,9 @@ def main():
     #step #2 get get neighborhood with coordinates 
     neighborhood = get_neighborhood(coord)
     #step #3 print neighborhood
-    print(neighborhood)
+    print('Address: '+ init_address)
+    print('Neighborhood: '+ neighborhood)
+    print("============================")
     #step 4 - recursive function to increase address
     increase_address(init_address, neighborhood)
     

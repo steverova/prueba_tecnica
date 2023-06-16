@@ -41,7 +41,7 @@ def increase_address(address, prev_neighborhood=None):
     
     neighborhood = get_neighborhood(coord)
     
-    print('Address: '+ address)
+    print('Address: '+ new_address)
     
     print('Neighborhood: '+ neighborhood)
     

@@ -3,4 +3,4 @@
 pip install -U googlemaps
 
 
-run  src/prueba/main.py
+run  /src/prueba/main.py
